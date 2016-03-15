@@ -29,7 +29,7 @@ $xml = $client->processRequest(time(), $client->getCurrencyId('KZT'), 555);
    <input type="hidden" name="Signed_Order_B64" value="<?php echo $xml ?>">
     E-mail: <input type="text" name="email" size=50 maxlength=50  value="faridmovsumov@gmail.com">
    <p>
-   <input type="hidden" name="Language" value="eng"> <!-- ÿçûê ôîðìû îïëàòû rus/eng -->
+   <input type="hidden" name="Language" value="eng">
    <input type="hidden" name="BackLink" value="http://epay.mil/return.php">
    <input type="hidden" name="PostLink" value="http://epay.mil/return.php">
    <input type="submit" name="GotoPay"  value="Pay" >
