@@ -1,0 +1,5 @@
+{
+    "require": {
+        "iborodikhin/kazkom-epay": "dev-master"
+    }
+}

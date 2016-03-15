@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7ee34705735089bd9d5685f3f3332945",
+    "content-hash": "df1b71b84294fb823cbce9034a412da3",
+    "packages": [
+        {
+            "name": "iborodikhin/kazkom-epay",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iborodikhin/kazkom-epay.git",
+                "reference": "0c97229bf50f0941c1705efd1314e742928d4c1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iborodikhin/kazkom-epay/zipball/0c97229bf50f0941c1705efd1314e742928d4c1b",
+                "reference": "0c97229bf50f0941c1705efd1314e742928d4c1b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Epay\\": "src/",
+                    "Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Igor Borodikhin",
+                    "email": "iborodikhin@gmail.com"
+                }
+            ],
+            "description": "PHP library for Kazakom ePay",
+            "time": "2016-02-24 06:27:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "iborodikhin/kazkom-epay": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
